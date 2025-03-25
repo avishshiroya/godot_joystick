@@ -2,7 +2,7 @@ extends CharacterBody2D
 
 @onready var joystick = $"../Camera2D/joystick"
 
-var speed = 500
+var speed = 300
 
 func _physics_process(_delta: float) -> void:
 	var direction = joystick.posVector
